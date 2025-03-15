@@ -12,7 +12,7 @@ function nextSlide() {
     updateSlide();
 }
 
-function prevSlide() {
+function prevSlide() 
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
     updateSlide();
 }
